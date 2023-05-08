@@ -560,47 +560,40 @@ header button {
 }
 
 /* =============
-    gallery
+    classes
 ============= */
-@media (min-width: 1024px) {
-  #gallery {
+@media (min-width: 768px) {
+  #classesTest {
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". gallery .";
+    grid-template-areas: ". classes-cards .";
   }
 }
-@media (min-width: 1024px) {
-  #gallery ul {
-    grid-area: gallery;
+@media (min-width: 1440px) {
+  #classesTest {
+    grid-template-columns: auto 1200px auto;
   }
 }
-#gallery ul li img {
-  width: 100%;
+#classesTest > div {
+  display: grid;
+  gap: 16px;
 }
 @media (min-width: 768px) {
-  #gallery ul li {
-    grid-template-areas: 50% auto;
+  #classesTest > div {
+    grid-area: classes-cards;
+    grid-template-columns: 50% auto;
   }
 }
-@media (min-width: 1440px) {
-  #gallery ul li {
-    grid-template-areas: "g1 g2" "g1 g3";
-  }
+#classesTest > div > aside {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". classes .";
+  background-color: #B2C5A7;
 }
-@media (min-width: 1440px) {
-  #gallery ul li #g1 {
-    grid-area: g1;
-  }
-}
-@media (min-width: 1440px) {
-  #gallery ul li #g2 {
-    grid-area: g2;
-  }
-}
-@media (min-width: 1440px) {
-  #gallery ul li #g3 {
-    grid-area: g3;
-  }
+#classesTest > div > aside > div {
+  grid-area: classes;
+  display: grid;
+  grid-template-columns: 70% auto;
 }
 
 /* =============
