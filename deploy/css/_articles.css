@@ -1,0 +1,15 @@
+/* =============
+    articles
+============= */
+#articles div section img {
+  width: 100%;
+}
+#articles div #card {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". card .";
+  background-color: rgb(129, 194, 194);
+}
+#articles div #card > div {
+  grid-area: card;
+}

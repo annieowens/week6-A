@@ -1,0 +1,45 @@
+/* =============
+    recipe
+============= */
+
+#recipe{
+
+    #recipe-bottom{
+        
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
+        }
+
+        @include lg{
+            grid-template-columns: 50% auto;
+        }
+
+        section{
+            display: grid;
+            grid-template-areas: ". recipe .";
+            background-color: rgb(151, 163, 22);
+            >div{
+                grid-area: recipe ;
+                
+           }
+        
+            
+           }
+
+           #recipe-bottom-left{
+            background-color: orange;
+           }
+           @include xxl{
+            grid-template-columns: 60% auto 16px ;
+           }
+
+           #recipe-bottom-right{
+            background-color: purple;
+           }
+           @include xxl{
+            grid-template-columns: 40% auto 16px ;
+           }
+    }
+    
+ }

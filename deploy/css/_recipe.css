@@ -1,0 +1,12 @@
+/* =============
+    recipe
+============= */
+#recipe section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". recipe .";
+  background-color: rgb(51, 138, 201);
+}
+#recipe section > div {
+  grid-area: recipe;
+}

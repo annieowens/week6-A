@@ -1,0 +1,14 @@
+/* =============
+    classes
+============= */
+#classes aside {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". classes .";
+  background-color: rgb(51, 193, 201);
+}
+#classes aside > div {
+  grid-area: classes;
+  display: grid;
+  grid-template-columns: 70% auto;
+}

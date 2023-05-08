@@ -1,0 +1,28 @@
+/* =============
+    Header
+============= */
+header{
+   #nav{
+    background-color: rgb(51, 149, 201);
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". header .";
+    >div{
+        grid-area: header ;
+   }
+
+    
+   }
+   
+#searchbar{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". searchbar .";
+    background-color: rgb(18, 101, 101);
+
+    >div{
+        grid-area: searchbar ;
+    }
+}
+    
+    }
