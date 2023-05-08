@@ -52,6 +52,7 @@
         form{
             margin-top: 32px;
             display: flex;
+            flex-direction: column;
 
             @include md{
                 margin-left: 24px;
@@ -73,6 +74,7 @@
             color: black;
             border: none;
            padding: 16px 24px;
+           margin-left: auto;
 
            
         }

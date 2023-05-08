@@ -507,6 +507,7 @@ header button {
 #footer > div form {
   margin-top: 32px;
   display: flex;
+  flex-direction: column;
 }
 @media (min-width: 768px) {
   #footer > div form {
@@ -529,6 +530,7 @@ header button {
   color: black;
   border: none;
   padding: 16px 24px;
+  margin-left: auto;
 }
 
 /* =============
