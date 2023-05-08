@@ -28,14 +28,14 @@
            }
 
            #recipe-bottom-left{
-            background-color: orange;
+            background-color: #d4c5a7;
            }
            @include xxl{
             grid-template-columns: 60% auto 16px ;
            }
 
            #recipe-bottom-right{
-            background-color: purple;
+            background-color: #D5CCBA;
            }
            @include xxl{
             grid-template-columns: 40% auto 16px ;

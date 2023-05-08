@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
-    background-color: aquamarine;
+    background-color: #5E6D49;
 
     @include xxl{
         grid-template-columns: auto 1200px auto;
@@ -42,6 +42,27 @@
             @include md{
                 grid-area: f3;
             }
+        }
+        h1{
+            margin-bottom: 16px;
+        }
+        h2{
+            margin-bottom: 16px;
+        }
+        input{
+            background-color: seagreen;
+            color: black;
+            border: none;
+           padding: 16px 32px;
+           }
+
+        button{
+            background-color: seagreen;
+            color: black;
+            border: none;
+           padding: 16px 24px;
+
+           
         }
         
     }

@@ -4,6 +4,10 @@
 :root {
   --black: #000000;
   --white: #ffffff;
+  --sage: #5E6D49;
+  --lightsage: #B2C5A7;
+  --browny: #D5CCBA;
+  --groot: #b2c5a8;
 }
 
 /* =============
@@ -410,10 +414,13 @@ textarea {
     Header
 ============= */
 header #nav {
-  background-color: rgb(51, 149, 201);
+  background-color: #5E6D49;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
+}
+header #nav h1 {
+  margin-bottom: 16px;
 }
 header #nav > div {
   grid-area: header;
@@ -422,10 +429,24 @@ header #searchbar {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". searchbar .";
-  background-color: rgb(18, 101, 101);
+}
+header #searchbar svg {
+  background-color: #4bad12;
 }
 header #searchbar > div {
   grid-area: searchbar;
+}
+header input {
+  background-color: rgb(239, 245, 241);
+  color: black;
+  border: 1px solid gray;
+  padding: 16px 0 16px 8px;
+}
+header button {
+  background-color: #B2C5A7;
+  color: black;
+  border: none;
+  padding: 16px 24px;
 }
 
 /* =============
@@ -435,7 +456,7 @@ header #searchbar > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
-  background-color: aquamarine;
+  background-color: #5E6D49;
 }
 @media (min-width: 1440px) {
   #footer {
@@ -473,6 +494,24 @@ header #searchbar > div {
     grid-area: f3;
   }
 }
+#footer > div h1 {
+  margin-bottom: 16px;
+}
+#footer > div h2 {
+  margin-bottom: 16px;
+}
+#footer > div input {
+  background-color: seagreen;
+  color: black;
+  border: none;
+  padding: 16px 32px;
+}
+#footer > div button {
+  background-color: seagreen;
+  color: black;
+  border: none;
+  padding: 16px 24px;
+}
 
 /* =============
     Hero
@@ -504,7 +543,7 @@ header #searchbar > div {
   grid-area: recipe;
 }
 #recipe #recipe-bottom #recipe-bottom-left {
-  background-color: orange;
+  background-color: #d4c5a7;
 }
 @media (min-width: 1440px) {
   #recipe #recipe-bottom {
@@ -512,7 +551,7 @@ header #searchbar > div {
   }
 }
 #recipe #recipe-bottom #recipe-bottom-right {
-  background-color: purple;
+  background-color: #D5CCBA;
 }
 @media (min-width: 1440px) {
   #recipe #recipe-bottom {
@@ -521,41 +560,47 @@ header #searchbar > div {
 }
 
 /* =============
-    classes
+    gallery
 ============= */
-@media (min-width: 768px) {
-  #classesTest {
+@media (min-width: 1024px) {
+  #gallery {
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". classes-cards .";
+    grid-template-areas: ". gallery .";
+  }
+}
+@media (min-width: 1024px) {
+  #gallery ul {
+    grid-area: gallery;
+  }
+}
+#gallery ul li img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #gallery ul li {
+    grid-template-areas: 50% auto;
   }
 }
 @media (min-width: 1440px) {
-  #classesTest {
-    grid-template-columns: auto 1200px auto;
+  #gallery ul li {
+    grid-template-areas: "g1 g2" "g1 g3";
   }
 }
-#classesTest > div {
-  display: grid;
-  gap: 16px;
-  border: 1px solid red;
-}
-@media (min-width: 768px) {
-  #classesTest > div {
-    grid-area: classes-cards;
-    grid-template-columns: 50% auto;
+@media (min-width: 1440px) {
+  #gallery ul li #g1 {
+    grid-area: g1;
   }
 }
-#classesTest > div > aside {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". classes .";
-  background-color: rgb(51, 193, 201);
+@media (min-width: 1440px) {
+  #gallery ul li #g2 {
+    grid-area: g2;
+  }
 }
-#classesTest > div > aside > div {
-  grid-area: classes;
-  display: grid;
-  grid-template-columns: 70% auto;
+@media (min-width: 1440px) {
+  #gallery ul li #g3 {
+    grid-area: g3;
+  }
 }
 
 /* =============

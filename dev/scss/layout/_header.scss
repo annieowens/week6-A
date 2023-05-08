@@ -2,27 +2,48 @@
     Header
 ============= */
 header{
-   #nav{
-    background-color: rgb(51, 149, 201);
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
-    >div{
-        grid-area: header ;
-   }
-
-    
-   }
-   
-#searchbar{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". searchbar .";
-    background-color: rgb(18, 101, 101);
-
-    >div{
-        grid-area: searchbar ;
+    #nav{
+     background-color:#5E6D49;
+     display: grid;
+     grid-template-columns: 16px auto 16px;
+     grid-template-areas: ". header .";
+ 
+     h1{
+         margin-bottom: 16px;
+     }
+     >div{
+         grid-area: header ;
     }
-}
-    
+ 
+     
     }
+    
+ #searchbar{
+     display: grid;
+     grid-template-columns: 16px auto 16px;
+     grid-template-areas: ". searchbar .";
+     svg{
+         background-color: #4bad12;
+     }
+    
+ 
+     >div{
+         grid-area: searchbar ;
+     }
+     
+ }
+ input{
+     background-color: rgb(239, 245, 241);
+     color: black;
+     border: 1px solid gray;
+    padding: 16px 0 16px 8px;
+    }
+    button{
+     background-color: #B2C5A7;
+     color: black;
+     border: none;
+    padding: 16px 24px;
+ }
+     
+     }
+ 
