@@ -270,9 +270,9 @@
     "\/deploy\/img\/global\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 0,
+      "oA" : 2,
       "oAP" : "\/deploy\/img\/global\/logo.svg",
-      "oF" : 1,
+      "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -343,41 +343,41 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/articles.kit",
-      "oF" : 3
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/articles.html",
+      "oF" : 0
     },
     "\/dev\/content\/classes.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/classes.kit",
-      "oF" : 3
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/classes.html",
+      "oF" : 0
     },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/gallery.kit",
-      "oF" : 3
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gallery.html",
+      "oF" : 0
     },
     "\/dev\/content\/hero.kit" : {
-      "cB" : 1,
+      "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/hero.kit",
-      "oF" : 3
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
     },
     "\/dev\/content\/recipe.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/recipe.kit",
-      "oF" : 3
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/recipe.html",
+      "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -416,8 +416,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -425,8 +425,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 3,
+      "oAP" : "\/dev\/js\/scripts-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -588,9 +588,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/_articles.css",
-      "oF" : 3,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_articles.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -603,9 +603,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/_classes.css",
-      "oF" : 3,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_classes.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -618,9 +618,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/_gallery.css",
-      "oF" : 3,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -633,9 +633,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/_hero.css",
-      "oF" : 3,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -648,9 +648,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/_recipe.css",
-      "oF" : 3,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_recipe.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -664,8 +664,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oAP" : "\/dev\/scss\/styles.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
